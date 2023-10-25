@@ -12,7 +12,7 @@ public class InputarrayScanner {
 		for(int i=0;i<n;i++) {
 			num[i]=sc.nextInt();
 		}
-		for(int i=0;i<=num.length-1;i++)
+		for(int i=0;i<num.length;i++)
 		{   
 			System.out.print(num[i]+" ");
 			
