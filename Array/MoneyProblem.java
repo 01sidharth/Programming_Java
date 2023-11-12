@@ -23,7 +23,12 @@ public class MoneyProblem {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the amount:");
 		int amount=sc.nextInt();
-		int[] notes= {1000,500,200,100,50,20,10};
+		int n=sc.nextInt();
+		int [] notes=new int[n];
+        for(int i=0;i<n;i++)
+        {
+            notes[i]=sc.nextInt();
+        }
 		count(notes,amount);
 		sc.close();
 	}
