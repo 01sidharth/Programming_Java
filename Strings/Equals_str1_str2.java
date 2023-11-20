@@ -3,7 +3,7 @@ package Strings;
 import java.util.Scanner;
 
 public class Equals_str1_str2 {
-	public static boolean check(String str1,String str2)
+	public static boolean equals(String str1,String str2)
 	{
 		if(str1.length()!=str2.length())
 		{
@@ -25,7 +25,7 @@ public class Equals_str1_str2 {
 		String str1=sc.nextLine();
 		System.out.println("Enter the String2");
 		String str2=sc.nextLine();
-		System.out.println( check(str1,str2));
+		System.out.println(equals(str1,str2));
 		sc.close();
 	}
 
