@@ -1,7 +1,7 @@
 package Datastructure;
 
 public class Demo3recursion {
-	//1 2 3 4 5
+	//5 4 3 2 1 1 2 3 4 5
 	public static void display(int n)
 	{
 		if(n>=1)
