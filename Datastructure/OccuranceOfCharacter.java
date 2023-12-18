@@ -11,7 +11,7 @@ public class OccuranceOfCharacter {
 		{
 			ch[i]=str.charAt(i);
 		}
-		LinkedHashMap<Object,Integer> l1=new LinkedHashMap<>();
+		LinkedHashMap<Character,Integer> l1=new LinkedHashMap<>();
 		for(char ele:ch)
 		{
 			if(l1.containsKey(ele))
